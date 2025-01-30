@@ -13,7 +13,7 @@ struct AddItemView: View {
     @State private var description = ""
     @State private var dueDate = Date()
     @Environment(\.presentationMode) var presentationMode
-    static let priorities = ["High", "medium", "Low"]
+    static let priorities = ["High", "Medium", "Low"]
     var body: some View {
         NavigationView {
             Form {
